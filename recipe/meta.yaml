@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - hatch
   run:
     - autowrapt >=1.0
     - oneagent-sdk >=1.3.0
